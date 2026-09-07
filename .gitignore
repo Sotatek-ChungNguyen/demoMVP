@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ML models (auto-downloaded via model_manager / large binaries)
+models/
+
+# Runtime storage (uploads, generated outputs, reports, history)
+storage/uploads/*
+storage/outputs/*
+storage/reports/*
+storage/history.json
+!storage/uploads/.gitkeep
+!storage/outputs/.gitkeep
+!storage/reports/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
